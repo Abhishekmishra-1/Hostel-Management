@@ -18,13 +18,12 @@ public class StudentTest {
 		h	= new Hostel();
 		
 		BufferedWriter out = new BufferedWriter(new FileWriter("hostel.txt",true));
-//		assertEquals(false,h.verifyName("test rNo"));
 		
 			try{
 				out.write("tekjhgfdsst rNo");
 				out.newLine();
 	           }catch(Exception e){
-	               //print
+	              
 	               System.out.println(e);
 	               
 	           }finally{
@@ -37,12 +36,12 @@ public class StudentTest {
 		
 		
 		
-//		fail("Not yet implemented");
+
 	}
 	@SuppressWarnings("static-access")
 	@Test
 	public void studentDuplicacyTest() throws IOException{
-//		boolean chk = true;
+
 		assertEquals(false,h.verifyName("abcdef"));
 	}
 
