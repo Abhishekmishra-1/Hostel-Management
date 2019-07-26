@@ -41,7 +41,7 @@ public class HostelTest {
              out.write(test+" "+1);
                  out.newLine();
          } catch (IOException e) {
-			// TODO Auto-generated catch block
+		
 			e.printStackTrace();
 		}finally{
              if(out!=null){
